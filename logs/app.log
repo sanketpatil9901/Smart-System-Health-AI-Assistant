@@ -1,0 +1,73 @@
+2026-04-06T23:00:46.629+05:30  INFO 17684 --- [demo] [main] c.systemhealth.SystemHealthApplication   : Starting SystemHealthApplication using Java 21.0.4 with PID 17684 (C:\Users\sanke\Smart_System_Health_AI_Assistant\Smart-System-Health-AI-Assistant\target\classes started by sanke in C:\Users\sanke\Smart_System_Health_AI_Assistant\Smart-System-Health-AI-Assistant)
+2026-04-06T23:00:46.635+05:30 DEBUG 17684 --- [demo] [main] c.systemhealth.SystemHealthApplication   : Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-04-06T23:00:46.639+05:30  INFO 17684 --- [demo] [main] c.systemhealth.SystemHealthApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-04-06T23:00:48.892+05:30  INFO 17684 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-06T23:00:49.186+05:30  INFO 17684 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 225 ms. Found 1 JPA repository interface.
+2026-04-06T23:00:50.806+05:30  INFO 17684 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-06T23:00:50.834+05:30  INFO 17684 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-06T23:00:50.835+05:30  INFO 17684 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-06T23:00:51.032+05:30  INFO 17684 --- [demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-06T23:00:51.034+05:30  INFO 17684 --- [demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4237 ms
+2026-04-06T23:00:51.445+05:30  INFO 17684 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-06T23:00:51.630+05:30  INFO 17684 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-06T23:00:51.718+05:30  INFO 17684 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-06T23:00:52.294+05:30  INFO 17684 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-06T23:00:52.353+05:30  INFO 17684 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-06T23:00:53.161+05:30  INFO 17684 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fd4459b
+2026-04-06T23:00:53.167+05:30  INFO 17684 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-06T23:00:53.273+05:30  WARN 17684 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-06T23:00:55.399+05:30  INFO 17684 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-06T23:00:55.561+05:30  INFO 17684 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-06T23:00:57.061+05:30  WARN 17684 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-06T23:00:57.176+05:30  WARN 17684 --- [demo] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 10275f71-91cf-4086-8fd4-984293c538a0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-06T23:00:57.963+05:30  INFO 17684 --- [demo] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1a1dd8eb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4def900a, org.springframework.security.web.context.SecurityContextHolderFilter@28c75c93, org.springframework.security.web.header.HeaderWriterFilter@5e7ea81b, org.springframework.web.filter.CorsFilter@5e1bfe66, org.springframework.security.web.authentication.logout.LogoutFilter@5b3c2a9f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@95aeee4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c1d6ef0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c399d4, org.springframework.security.web.access.ExceptionTranslationFilter@42fdf45e, org.springframework.security.web.access.intercept.AuthorizationFilter@4bd39edc]
+2026-04-06T23:00:58.506+05:30  INFO 17684 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-04-06T23:00:58.521+05:30  INFO 17684 --- [demo] [main] c.systemhealth.SystemHealthApplication   : Started SystemHealthApplication in 13.381 seconds (process running for 14.983)
+2026-04-06T23:01:05.304+05:30  INFO 17684 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-06T23:01:05.309+05:30  INFO 17684 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-06T23:01:05.327+05:30  INFO 17684 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-06 23:01:09 [INFO] com.systemhealth.SystemHealthApplication - Starting SystemHealthApplication using Java 21.0.4 with PID 9264 (C:\Users\sanke\Smart_System_Health_AI_Assistant\Smart-System-Health-AI-Assistant\target\classes started by sanke in C:\Users\sanke\Smart_System_Health_AI_Assistant\Smart-System-Health-AI-Assistant)
+2026-04-06 23:01:09 [DEBUG] com.systemhealth.SystemHealthApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-04-06 23:01:09 [INFO] com.systemhealth.SystemHealthApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-06 23:01:11 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-06 23:01:11 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 162 ms. Found 1 JPA repository interface.
+2026-04-06 23:01:13 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-06 23:01:13 [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-06 23:01:13 [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-06 23:01:13 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-06 23:01:13 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3565 ms
+2026-04-06 23:01:13 [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-06 23:01:14 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-06 23:01:14 [INFO] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-06 23:01:14 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-06 23:01:14 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-06 23:01:15 [INFO] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@87aec6a
+2026-04-06 23:01:15 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-06 23:01:15 [WARN] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-06 23:01:17 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-06 23:01:17 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-06 23:01:17 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-06 23:01:17 [WARN] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ec9485ae-aa6e-4dd3-b4b6-4b41cba81f7c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-06 23:01:18 [INFO] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@b8c6406, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6bed434d, org.springframework.security.web.context.SecurityContextHolderFilter@ebbbe20, org.springframework.security.web.header.HeaderWriterFilter@423d662a, org.springframework.web.filter.CorsFilter@13f10967, org.springframework.security.web.authentication.logout.LogoutFilter@439d649c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4cb59398, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22cf1808, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76ffd052, org.springframework.security.web.access.ExceptionTranslationFilter@2eb73a42, org.springframework.security.web.access.intercept.AuthorizationFilter@e7ddf8d]
+2026-04-06 23:01:18 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-04-06 23:01:18 [INFO] com.systemhealth.SystemHealthApplication - Started SystemHealthApplication in 10.451 seconds (process running for 11.605)
+2026-04-06 23:03:15 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-06 23:03:15 [INFO] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-06 23:03:15 [INFO] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-04-06 23:03:15 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: POST /auth/login
+2026-04-06 23:03:16 [INFO] com.systemhealth.controller.AuthController - ➡️ Login attempt for username=sanket
+2026-04-06 23:03:16 [INFO] com.systemhealth.controller.AuthController - ✅ Login successful for username=sanket
+2026-04-06 23:03:16 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: POST /auth/login | Time: 1104 ms
+2026-04-06 23:03:38 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-06 23:03:38 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-06 23:03:38 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
