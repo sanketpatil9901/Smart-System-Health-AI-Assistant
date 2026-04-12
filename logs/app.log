@@ -4924,3 +4924,148 @@ This generated password is for development use only. Your security configuration
 2026-04-11 16:30:01 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: POST /system/issue | Time: 342 ms
 2026-04-11 16:30:16 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
 2026-04-11 16:30:16 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 7 ms
+2026-04-11 16:31:16 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:31:16 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 7 ms
+2026-04-11 16:32:16 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:32:16 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 12 ms
+2026-04-11 16:33:16 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:33:16 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 8 ms
+2026-04-11 16:34:16 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:34:16 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 8 ms
+2026-04-11 16:34:21 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:34:21 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 3 ms
+2026-04-11 16:34:24 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: POST /system/fix/245
+2026-04-11 16:34:24 [ERROR] com.systemhealth.config.GlobalExceptionHandler - ❌ ERROR: No static resource system/fix/245.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource system/fix/245.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at com.systemhealth.config.LoggingFilter.doFilter(LoggingFilter.java:24)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-11 16:34:24 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: POST /system/fix/245 | Time: 85 ms
+2026-04-11 16:34:26 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:34:26 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 5 ms
+2026-04-11 16:34:31 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:34:31 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 7 ms
+2026-04-11 16:34:36 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:34:36 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 7 ms
+2026-04-11 16:34:41 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:34:41 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 2 ms
+2026-04-11 16:34:46 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:34:46 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 7 ms
+2026-04-11 16:34:51 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:34:51 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 0 ms
+2026-04-11 16:34:56 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:34:56 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 0 ms
+2026-04-11 16:35:01 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:35:01 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 0 ms
+2026-04-11 16:35:06 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:35:06 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 0 ms
+2026-04-11 16:35:11 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:35:11 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 5 ms
+2026-04-11 16:35:16 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:35:16 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 0 ms
+2026-04-11 16:35:21 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:35:21 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 4 ms
+2026-04-11 16:35:26 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:35:26 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 2 ms
+2026-04-11 16:35:31 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:35:31 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 8 ms
+2026-04-11 16:35:36 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:35:36 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 2 ms
+2026-04-11 16:35:41 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:35:41 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 7 ms
+2026-04-11 16:35:46 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:35:46 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 7 ms
+2026-04-11 16:35:51 [INFO] com.systemhealth.config.LoggingFilter - ➡️ REQUEST: GET /system/health
+2026-04-11 16:35:51 [INFO] com.systemhealth.config.LoggingFilter - ✅ RESPONSE: GET /system/health | Time: 6 ms
+2026-04-11 16:36:04 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2026-04-11 16:36:04 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@6e818345]]
+2026-04-11 16:36:04 [INFO] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2026-04-11 16:36:04 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-11 16:36:04 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-11 16:36:04 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
